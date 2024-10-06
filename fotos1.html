@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- favicon permite imagen en la ventana -->
+        <meta charset="utf-8">
+         <!-- Cogificacion que arregla ptoblemas con las tildes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- permite adaptar la pantalla segun su tamano -->
+        <meta name="description" content="ejemplo de html5">
+        <meta name="keywords" content="html5, css3, javascript">
+          <!-- Permite a los buscadores encontrar una pagina en sus resultados -->
+        <title>Pagina turística La Tigra</title>
+       <!-- titulo de la pagina(ventana o pestana) -->
+        <link rel="stylesheet" href="CSS/estilos.css">
+         <!-- indica a nuestro html el archivo para utilizar estilos -->
+        <!-- ../ sale de una carpeta y entra a otra -->
+    </head>
+    <body>
+        <!-- contenedor de toda la pagina -->
+        <div id="agrupar">
+            <header id="cabecera"  style="background: -webkit-radial-gradient(center, circle,#c4a9a9, 0%, #4bc97f, 200%);
+    background: -webkit-linear-gradient(top, #c4a9a9, #4bc97f);">
+                    <!-- encabezado del contenedor-->
+                <h1>Fotos de las caminatas</h1>
+            </header>
+            <nav id="menu" style="    background: -webkit-radial-gradient(center, circle, #FFFFFF, 0%, #c9794b, 200%);
+    background: -webkit-linear-gradient(top, #443a3a, #c9794b);">
+                <!-- menu principal -->
+                <ul>
+                    <li> <a href="index.html">Principal</a></li>
+                    <li>Fotos 
+                        <ul>
+                            <li><a href="fotos1.html">Caminatas</a></li>
+                            <li><a href="fotos2.html">Viajes a caballo</a></li>
+                          <li><a href="fotos3.html">Eventos de motos</a></li>
+                        </ul>
+                     </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <article>
+                <header>
+                    <figure>
+                        <!-- elemento que agrupa las imagenes -->
+                        <img src="RES/img1.jpeg" alt="">
+                        <figcaption>Imagen generada con IA</figcaption>
+                    </figure>
+                    <figure>
+                        <!-- elemento que agrupa las imagenes -->
+                        <img src="RES/img2.jpeg" alt="">
+                        <figcaption>Imagen generada con IA</figcaption>
+                    </figure>
+                    <figure>
+                        <!-- elemento que agrupa las imagenes -->
+                        <img src="RES/img3.jpeg" alt="">
+                        <figcaption>Imagen generada con IA</figcaption>
+                    </figure>
+                </header>
+            </article>
